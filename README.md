@@ -11,3 +11,5 @@ This is my first time using this program, so i'll be jotting down the basic code
 
 do you know that julia boast of its dynamic nature especially when you're working with numbers and data? its more like you're working with C and python similtaneously.
 this is supricingly fast because of its JIT (Just In Time) compiler which makes use of LLVM (Low Level Virtual Machine).
+
+3. in variables, you dont have to specify the variable data type that is; anything like int, bol, etc. you can just assign values to a variable without specifying it. it automatically give or assign data type to number values. but the string should be wrapped in either a double quote or a single quote.
