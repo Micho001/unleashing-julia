@@ -15,6 +15,8 @@ This is my first time using this program, so i'll be jotting down the basic code
 do you know that julia boast of its dynamic nature especially when you're working with numbers and data? its more like you're working with C and python similtaneously.
 this is supricingly fast because of its JIT (Just In Time) compiler which makes use of LLVM (Low Level Virtual Machine).
 
+the compiling method that julia uses is just like that of python. it reads the code statement from left to right and stops interpreting (returns error) the moment their is an error
+
 3. in variables, you dont have to specify the variable data type that is; anything like int, bol, etc. you can just assign values to a variable without specifying it. it automatically give or assign data type to number values. but the string should be wrapped in either a double quote or a single quote.
 
 4. something known as string interpolation can also be done. assuming you want to nest a variable inside another one and want to make it easily accessible by another 
@@ -76,3 +78,12 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
 
 14. I know most of you might not think of a; what if i want to store a unique value without it been repeated, how do i go about it and all that.
     well look no further than a set array, with this, you can store your values and not even think that a duplicate might appear.
+
+    you can even do the union, intersection and even the difference with sets
+
+# Game time
+- > Fizz_Buzz
+    - shows Fizz when divisible by 3 without a remainder and shows Buzz when divivded by 5 also without a remainder
+
+- > Guessing Game
+    - requires a user input of number from 1 - 10. it repeats infinitly until the user guesses the correct number

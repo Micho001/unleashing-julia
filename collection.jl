@@ -45,3 +45,11 @@ println(keys(info))
 println(values(info))
 
 # Set
+my_set = Set([1, 2, 2, 3]);
+println(my_set)
+
+set1 = Set([1,2,3]);
+set2 = Set([5,4,3]);
+println(union(set1, set2));
+println(intersect(set1, set2));
+println(setdiff(set1, set2));
