@@ -67,3 +67,12 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
 
 12. Ever heard of a Tuple?
     this occurs in a form of an array but its nit an array. it can contain different set of data that can't be changed. instead of a square bracket [], a tuple uses a brasis ().
+
+13. I remember at the initial stage when i heard about Dictionaries in programming language i was like whaaaaat?????? At first it didn't seems much different than a classified turple. But now, i better understand what it mean with a simple illustration as; a word and its meaning lolz simple right!
+    A dictionary follows a defined structure known as key-value pair, meaning that for every word that is in the dictionary, it will have a meaning and it can easily be traced either from it key or it value set. 
+    note: you can't leave one set empty e.g a key without a value returns an error and likewise, a value without a key returns an error too.
+
+    for a dictionary, the key set must always be in a string format but the value set can simple be any data-type.
+
+14. I know most of you might not think of a; what if i want to store a unique value without it been repeated, how do i go about it and all that.
+    well look no further than a set array, with this, you can store your values and not even think that a duplicate might appear.

@@ -35,3 +35,13 @@ println(person[1], person[3]);
 # You can make a tuple even more fun by adding a variable name to a value.
 detail = (name = "Alice", age = 30);
 println(detail.name)
+
+# A simple dictionary
+info = Dict("name" => "Alice", "age" => 30);
+println(info)
+
+# Accessing a dictionary with the keys method or the values method
+println(keys(info))
+println(values(info))
+
+# Set
