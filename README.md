@@ -22,4 +22,7 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
     after doing such, then create a variable that houses these variables inside. to then call the values of this variable, simply use the dollar sign to call it.
     e.g; message = "Hi i'm $name and i'm $age years old."
 
-    the interpolation above is a simple interpolation consisting of only variables
+    the interpolation above is a simple interpolation consisting of only variables. 
+    there is also something known as expression interpolation and this is used for calculations such that the operations and the operand in the brasis are calculated e.g; calculations = "5 + 10 equals $(5 + 10)"
+
+    the value of what ever calculation is done inside provided their is an operand and an operation.

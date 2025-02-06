@@ -14,3 +14,13 @@ println(12)
 12
 12
 =#
+
+#string interpolation
+name = "Alice";
+age = 30;
+message = "Hi i'm $name and i'm $age years old."
+println(message)
+
+#interpolating expression
+calculation = " 5 + 10 equals $(5 + 10).";
+println(calculation);
