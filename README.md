@@ -26,3 +26,19 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
     there is also something known as expression interpolation and this is used for calculations such that the operations and the operand in the brasis are calculated e.g; calculations = "5 + 10 equals $(5 + 10)"
 
     the value of what ever calculation is done inside provided their is an operand and an operation.
+
+5. Julia makes use of a single line comment and a multi line comment
+    e.g; # This is a single line comment
+        #= This is a mult line comment
+            many things can be explained in details
+        =#
+
+6. lets dive into some mathematical concept
+    i. fraction is written with a double forward slash (5//2)
+    ii. to check for equality, a double equal sign (==)
+    iii. remainder from a calculation is written with an ampersand(%)
+    iv. the triple equal sign is mainly used to compare different data types (===)
+    Note: when comparing missing and nothing values, === only returns true and false but == might give you a value of: missing, true, and false
+
+7. have you ever wondered why we've been using double quote all this while to represent string, why not single quote!.
+    well, here is your answer. Double quote is used for writing many characters while single quote is used for writing a character. A character us a representation of a single 32-bit character literal enclosed in a single quote(''). guess what folks! you can even use emojis caues it support unicode. but this is done with the double quote
