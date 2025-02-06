@@ -53,3 +53,17 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
     - less than <
     - greater than or equal to >=
     - less than or equal to <=
+
+10. when talking about collection of a set of values, julia can also do such (array) it could be in number format or in string.
+    assuming you have a range of values (numbers) that you want to compute that is many say a range of 30 numbers and they're following themselve in logical format, say 1000 numbers would you simply type out each and every numbers? with a colon, and the two numbers, you can place the start value (LHS) and the end value (RHS) of the number in which you want to range it e.g. 1 : 50.
+
+    ok fine, so now you have the range value value that is possibly stored in a variable. but the ranged array isn't set unless you make use of the keyword collect(variable_name_containing_the_ranged_value). this must be assigned to an entirely new variable. after which, the new variable containint the collect() keyword now contains the array ranged value and can now thus be called.
+
+    I almost forgot but Julia starts it indexing from 1 unlike some other programming language that starts from 0
+
+    ok now lemme shock you! you can use it to do matrix also!. after typing the format in which you want your matrix to appear, simply use the keyword display(variable_name)
+
+11. what if you want squares of number for range of 10 values and as many as you want; simply use the ^ function for the raise to the power of, then use the colon for the range of values e.g. squares = [x^2 for x in 1:5].  oh yes, it uses python logic as well
+
+12. Ever heard of a Tuple?
+    this occurs in a form of an array but its nit an array. it can contain different set of data that can't be changed. instead of a square bracket [], a tuple uses a brasis ().
