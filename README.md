@@ -41,4 +41,6 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
     Note: when comparing missing and nothing values, === only returns true and false but == might give you a value of: missing, true, and false
 
 7. have you ever wondered why we've been using double quote all this while to represent string, why not single quote!.
-    well, here is your answer. Double quote is used for writing many characters while single quote is used for writing a character. A character us a representation of a single 32-bit character literal enclosed in a single quote(''). guess what folks! you can even use emojis caues it support unicode. but this is done with the double quote
+    well, here is your answer. Double quote is used for writing many characters while single quote is used for writing a character. A character us a representation of a single 32-bit character literal enclosed in a single quote(''). guess what folks! you can even use emojis caues it support unicode. but this is done with the double quote, as well as using an emoji as a variable
+
+8. you concatenate two strings together using *. e.g; "hello"*"stackie"

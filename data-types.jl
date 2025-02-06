@@ -14,3 +14,5 @@ letter_s = "s️❤️"
 println(letter_s)
 character = 'A'
 println(character)
+❤️ = "Julia is love!"
+println(❤️)  # Outputs: Julia is love!
