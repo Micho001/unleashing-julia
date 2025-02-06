@@ -34,13 +34,17 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
         =#
 
 6. lets dive into some mathematical concept
-    i. fraction is written with a double forward slash (5//2)
-    ii. to check for equality, a double equal sign (==)
-    iii. remainder from a calculation is written with an ampersand(%)
-    iv. the triple equal sign is mainly used to compare different data types (===)
+    - fraction is written with a double forward slash (5//2)
+    - to check for equality, a double equal sign (==)
+    - remainder from a calculation is written with an ampersand(%)
+    - the triple equal sign is mainly used to compare different data types (===)
     Note: when comparing missing and nothing values, === only returns true and false but == might give you a value of: missing, true, and false
 
 7. have you ever wondered why we've been using double quote all this while to represent string, why not single quote!.
     well, here is your answer. Double quote is used for writing many characters while single quote is used for writing a character. A character us a representation of a single 32-bit character literal enclosed in a single quote(''). guess what folks! you can even use emojis caues it support unicode. but this is done with the double quote, as well as using an emoji as a variable
 
 8. you concatenate two strings together using *. e.g; "hello"*"stackie"
+
+9. just as == and === where used to simply check true or false between two statement, their're also many comparison that it supports
+    - not equal to !=
+    - strongly not equal to !==
