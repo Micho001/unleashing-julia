@@ -49,4 +49,7 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
 9. just as == and === where used to simply check true or false between two statement, their're also many comparison that it supports
     - not equal to !=
     - strongly not equal to !==
-    > greater than
+    - greater than >
+    - less than <
+    - greater than or equal to >=
+    - less than or equal to <=
