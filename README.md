@@ -18,3 +18,8 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
 3. in variables, you dont have to specify the variable data type that is; anything like int, bol, etc. you can just assign values to a variable without specifying it. it automatically give or assign data type to number values. but the string should be wrapped in either a double quote or a single quote.
 
 4. something known as string interpolation can also be done. assuming you want to nest a variable inside another one and want to make it easily accessible by another 
+    in the case of such, first assign a value to a variable e.g; name = "Alice"   age = 30
+    after doing such, then create a variable that houses these variables inside. to then call the values of this variable, simply use the dollar sign to call it.
+    e.g; message = "Hi i'm $name and i'm $age years old."
+
+    the interpolation above is a simple interpolation consisting of only variables
