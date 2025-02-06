@@ -28,8 +28,9 @@ this is supricingly fast because of its JIT (Just In Time) compiler which makes 
     the value of what ever calculation is done inside provided their is an operand and an operation.
 
 5. Julia makes use of a single line comment and a multi line comment
-    e.g; # This is a single line comment
-        #= This is a mult line comment
+    e.g; 
+    - # This is a single line comment
+    - #= This is a mult line comment
             many things can be explained in details
         =#
 
