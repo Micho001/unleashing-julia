@@ -87,3 +87,10 @@ the compiling method that julia uses is just like that of python. it reads the c
 
 - > Guessing Game
     - requires a user input of number from 1 - 10. it repeats infinitly until the user guesses the correct number
+
+
+# In the notebook.jl section, i used the julia section in the terminal. And then install some dependencies called pluto of which i used in the writing the code and analyzing the data obtained from W H O for code 19.
+
+For more on it, 
+    check Unleashing Julia: A Beginner’s Guide to the Fastest Programming Language for Data and AI 🚀 (https://earn.stackup.dev/campaigns/unleashing-julia-a-beginners-guide-to-the-fastest-programming-language-for-data-and-ai-6e44)
+        Quest 3 in stack up
